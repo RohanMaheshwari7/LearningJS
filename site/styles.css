@@ -1,0 +1,36 @@
+* {
+	box-sizing:  border-box;
+	margin: 0;
+	padding: 0;	
+}
+div#container {
+	background-color: #00FFFF;
+	position: relative;
+	top: 10px; 
+}
+p{
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	text-align: center;
+	margin-bottom: 15px;
+}
+#p1{
+	background-color: #FF0000;
+	position: absolute;
+	/*absolutely positioned inside div(non static)*/
+	top: 0px;
+	left: 0px;
+}
+#p2{
+	background-color: #33cc33;
+	position: relative;
+	top: 65px;
+	left:  65px;
+}
+#p3{
+	background-color: #3333ff;
+}
+#p4{
+	background-color: #ac00e6;
+}
